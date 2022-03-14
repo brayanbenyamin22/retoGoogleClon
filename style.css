@@ -1,0 +1,179 @@
+/*Configuracion de Estilos y Declaracion de Variables*/
+:root {
+    --font: 1.4rem;
+    --font-type: Arial, Helvetica, sans-serif;
+    --header-color: rgba(0,0,0,0.87);
+    --footer-color: #70757a;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+/*Edicion del Header*/
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 6rem;
+}
+.links {
+    width: 9%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons{
+    width: 13.5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-family: var(--font-type);
+}
+.icons img {
+    width: 2.3rem;
+    height: 2.3rem;
+}
+.button {
+    width: 12rem;
+    height: 3.7rem;
+    font-size: var(--font);
+    text-align: center;
+    color: white;
+    border-radius: 0.4rem;
+    background-color: #5094ed;
+}
+.mail{
+    font-size: var(--font);
+    color: var(--header-color);
+}
+.image{
+    font-size: var(--font);
+    color: var(--header-color);
+}
+/*Edicion del Main*/
+.main-container {
+    width: 100%;
+    height: 59.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 30rem;
+    height: 10rem;
+    margin-bottom: 3rem;
+}
+.bar {
+    display: flex;
+    width: 35%;
+    height: 3.9rem;
+    justify-content: space-around;
+    align-items: center;
+    font-size: var(--font);
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+    border-style: ridge;
+    box-decoration-break: var(--footer-color);
+}
+.finder{
+    width: 6rem;
+    height: 6rem;
+}
+.searcher {
+    width: 70%;
+    outline: 0;
+    border: 0;
+}
+.micro{
+    width: 2rem;
+    height: 2rem;
+}
+.main-button{
+    width: 22%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+.button1 {
+    width: 15rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font);
+    color: var(--footer-color);
+    border-radius: 0.4rem;
+    background-color: #ececec;
+}
+.button2 {
+    width: 15rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font);
+    color: var(--footer-color);
+    border-radius: 0.4rem;
+    background-color: #ececec;
+}
+/*Edicion del Footer*/
+/*Primero*/
+.pais-container {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #faf2f2;
+    box-shadow: #70757a;
+}
+.pais {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pais-container p{
+    font-size: var(--font);
+    font-family: var(--font-type);
+    color: var(--footer-color);
+}
+/*Segundo*/
+.footer-container{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    box-shadow: #70757a;
+}
+.options {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.left {
+    position: relative;
+    width: 33%;
+    left: 3.8rem;
+}
+.right {
+    position: relative;
+    width: 20%;
+    right: 3.8rem;
+}
+.options a{
+    text-decoration: none;
+    font-size: var(--font);
+    color: var(--footer-color);
+}
